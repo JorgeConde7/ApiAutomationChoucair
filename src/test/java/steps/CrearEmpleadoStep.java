@@ -39,7 +39,7 @@ public class CrearEmpleadoStep {
     @And("valido el response el status {string} y mensaje {string}")
     public void validoElResponseElStatusStatusYMensajeMensaje(String status, String mensaje) {
         ValidacionUtils.validarResponseEmpleado(response,empleado,status,mensaje,null);
-        Util.pausar();
+
     }
 
 
